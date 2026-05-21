@@ -615,9 +615,10 @@
   .why-card:hover::after { opacity: 1; }
 
   .why-icon {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    display: block;
+    margin-bottom: 1.2rem;
+    display: flex;
+    justify-content: center;
+    color: var(--gold);
   }
   .why-title {
     font-family: 'Playfair Display', serif;
@@ -991,7 +992,7 @@
 <nav id="navbar">
   <div class="nav-logo">
     Pan Pita
-    <small>Doner Kebab · Burjassot</small>
+    <small>Doner Kebab</small>
   </div>
   <ul class="nav-links">
     <li><a href="#featured">Nosotros</a></li>
@@ -1007,7 +1008,7 @@
   <div class="hero-vignette"></div>
 
   <div class="hero-content">
-    <div class="hero-tag">Burjassot, Valencia</div>
+    <div class="hero-tag">Madrid</div>
 
     <h1 class="hero-title">
       Pan <span class="gold">Pita</span><br>
@@ -1027,13 +1028,13 @@
     </p>
 
     <p class="hero-sub">
-      Porciones generosas, sabores intensos y el mejor kebab de Burjassot.
+      Porciones generosas, sabores intensos y el mejor kebab de la ciudad.
       Carne, pollo, falafel, platos y menús que te llenan de verdad.
     </p>
 
     <div class="hero-btns">
       <a href="#menu" class="btn-primary">Ver carta</a>
-      <a href="tel:961828990" class="btn-outline">📞 Llamar ahora</a>
+      <a href="tel:612345678" class="btn-outline"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:0.5em;"><path d="M3 1h3l1.5 4-2 1.5c1 2 2.5 3.5 4.5 4.5L11.5 9.5 15.5 11v3a1 1 0 01-1 1C5.5 15 1 10.5 1 4a1 1 0 011-1z"/></svg>Llamar ahora</a>
     </div>
 
     <div class="hero-scroll-hint">
@@ -1226,35 +1227,62 @@
 
   <div class="why-grid">
     <div class="why-card reveal reveal-delay-1">
-      <span class="why-icon">🥙</span>
+      <span class="why-icon">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="3" x2="18" y2="33"/>
+          <ellipse cx="18" cy="3" rx="4" ry="2"/>
+          <rect x="10" y="9" width="16" height="5" rx="2.5"/>
+          <rect x="11" y="17" width="14" height="5" rx="2.5"/>
+          <rect x="12" y="25" width="12" height="4" rx="2"/>
+          <ellipse cx="18" cy="32" rx="8" ry="2.5"/>
+        </svg>
+      </span>
       <div class="why-title">Porciones XXL</div>
       <p class="why-desc">Nuestras raciones están pensadas para que salgas satisfecho. Nada de raciones de mentira: aquí se come de verdad.</p>
     </div>
     <div class="why-card reveal reveal-delay-2">
-      <span class="why-icon">🌿</span>
+      <span class="why-icon">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="10" r="4"/>
+          <circle cx="24" cy="10" r="4"/>
+          <path d="M4 30 C4 22 8 18 12 18"/>
+          <path d="M32 30 C32 22 28 18 24 18"/>
+          <path d="M12 18 C12 18 18 16 24 18 C24 24 22 30 18 30 C14 30 12 24 12 18Z"/>
+        </svg>
+      </span>
       <div class="why-title">Para todos</div>
       <p class="why-desc">Carne, pollo, opciones vegetales, falafel... Tenemos algo para cada gusto y cada tipo de hambre.</p>
     </div>
     <div class="why-card reveal reveal-delay-3">
-      <span class="why-icon">💰</span>
+      <span class="why-icon">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4 L4 19 L19 32 L32 19 L19 4 Z"/>
+          <circle cx="11" cy="11" r="2.5"/>
+        </svg>
+      </span>
       <div class="why-title">Precios justos</div>
       <p class="why-desc">Calidad premium sin romper la hucha. Desde 5,50 € te llevas un kebab que sabe mejor que cualquier otra cosa.</p>
     </div>
     <div class="why-card reveal reveal-delay-4">
-      <span class="why-icon">📍</span>
+      <span class="why-icon">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 3 C11 3 6 8 6 15 C6 24 18 33 18 33 C18 33 30 24 30 15 C30 8 25 3 18 3Z"/>
+          <circle cx="18" cy="15" r="4.5"/>
+        </svg>
+      </span>
       <div class="why-title">Fácil de encontrar</div>
-      <p class="why-desc">En el corazón de Burjassot, en la Av. Pi i Margall. Fácil acceso, fácil aparcamiento, difícil resistirse.</p>
+      <p class="why-desc">En pleno centro de Madrid, en la Calle Mayor. Fácil acceso, fácil aparcamiento, difícil resistirse.</p>
     </div>
   </div>
 
   <div class="map-wrapper reveal">
     <div class="map-label">
       <svg width="13" height="13" viewBox="0 0 14 14" fill="currentColor" style="color:var(--gold);flex-shrink:0;"><path d="M7 0C4.24 0 2 2.24 2 5c0 3.75 5 9 5 9s5-5.25 5-9c0-2.76-2.24-5-5-5zm0 6.75A1.75 1.75 0 1 1 7 3.25a1.75 1.75 0 0 1 0 3.5z"/></svg>
-      <span>Av. Pi i Margall, 1 — 46100 Burjassot, Valencia</span>
-      <a href="https://maps.google.com/?q=Av.+Pi+i+Margall+1,+Burjassot,+Valencia" target="_blank" rel="noopener" class="map-open-btn">Abrir en Maps ↗</a>
+      <span>Calle Mayor, 12 — 28013 Madrid</span>
+      <a href="https://maps.google.com/?q=Calle+Mayor+12,+28013+Madrid" target="_blank" rel="noopener" class="map-open-btn">Abrir en Maps ↗</a>
     </div>
     <div class="map-frame">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.902!2d-0.41902!3d39.51563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604823a87e03a9%3A0x5d9f3c2b1e4f6a7b!2sAv.%20de%20Pi%20i%20Margall%2C%201%2C%2046100%20Burjassot%2C%20Valencia!5e0!3m2!1ses!2ses!4v1700000000000!5m2!1ses!2ses" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación Pan Pita Doner Kebab"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.424!2d-3.7073!3d40.4154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422886cbf0a12b%3A0x91ae73c1ed75c3f1!2sCalle%20Mayor%2C%2012%2C%2028013%20Madrid!5e0!3m2!1ses!2ses!4v1700000000000!5m2!1ses!2ses" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación Pan Pita Doner Kebab"></iframe>
     </div>
   </div>
 
@@ -1277,15 +1305,15 @@
       <div class="contact-block reveal reveal-delay-2">
         <div class="contact-block-label">Dirección</div>
         <div class="contact-block-value">
-          Av. Pi i Margall, 1<br>
-          46100 Burjassot, Valencia
+          Calle Mayor, 12<br>
+          28013 Madrid
         </div>
       </div>
 
       <div class="contact-block reveal reveal-delay-3">
         <div class="contact-block-label">Teléfono</div>
         <div class="contact-block-value">
-          <a href="tel:000000000">000 00 00 0</a>
+          <a href="tel:612345678">612 34 56 78</a>
         </div>
       </div>
 
@@ -1312,8 +1340,8 @@
       <p style="color: var(--text-muted); font-size: 0.85rem; font-weight: 300; line-height: 1.7;">
         Llámanos, pasa por aquí o simplemente aparece. Estamos aquí para arreglarte la noche, noche tras noche.
       </p>
-      <a href="tel:961828990" class="phone-big">961 82 89 90</a>
-      <a href="tel:961828990" class="btn-primary" style="text-align:center;">📞 Llamar ahora</a>
+      <a href="tel:612345678" class="phone-big">612 34 56 78</a>
+      <a href="tel:612345678" class="btn-primary" style="text-align:center;"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:0.5em;"><path d="M3 1h3l1.5 4-2 1.5c1 2 2.5 3.5 4.5 4.5L11.5 9.5 15.5 11v3a1 1 0 01-1 1C5.5 15 1 10.5 1 4a1 1 0 011-1z"/></svg>Llamar ahora</a>
       <a href="#menu" class="btn-outline" style="text-align:center;">Ver carta completa</a>
     </div>
   </div>
@@ -1322,7 +1350,7 @@
 <!-- FOOTER -->
 <footer>
   <div class="footer-logo">Pan Pita Doner Kebab</div>
-  <p class="footer-copy">Av. Pi i Margall, 1 · Burjassot, Valencia · 961 82 89 90</p>
+  <p class="footer-copy">Calle Mayor, 12 · 28013 Madrid · 612 34 56 78</p>
   <p class="footer-copy">© 2025 Pan Pita Doner Kebab</p>
 </footer>
 
